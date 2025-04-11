@@ -12,7 +12,7 @@ setup(name='unitree_sdk2py',
       project_urls={
             "Source Code": "https://github.com/unitreerobotics/unitree_sdk2_python",
       },
-      package_data={"unitree_sdk2py": ["utils/lib/*.so"]}
+      package_data={"unitree_sdk2py": ["utils/lib/*.so"]},
       include_package_data=True,
       python_requires='>=3.8',
       install_requires=[
